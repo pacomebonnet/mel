@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+
+    /*color base*/
+
+    --noir : #000000;
+    --noir_leger : #1D1D1B;
+    --blanc : #FFFFFF;
+
+    /*color marque*/
+
+    --violet_fonce : #3D348B;
+    --violet_clair :#7678ED;
+    --violet_fond : #C2C4ED;
+    --orange : #F35B04;
+    --jaune : #F7B801;
+  
+    /*color boutons hover*/
+
+    --violet_pressed :  #5658CB;
+    --violet_clicked : #3B3CAA;
+
+    --jaune_clicked :  #F35B04;
+    --orange_clicked :  #CF5109;
+
+    /*taille typo*/
+
+    --titre : 1.25rem; /*20px*/
+    --sous_titre : 1rem; /*16px*/
+    --paragraphe : 0.9rem; /*14px*/
+    --paragraphe_magicien : .9rem; /*14px*/
+    --sous-categories : .75rem; /*12px*/
+    --description : .75rem; /*12px*/
+
+    
+    /*drop shadow*/ 
+
+    --drop_shadow : box-shadow(4px 0px 10px rgba(0, 0, 0, 0.1)); /* drop-shadow(offset-x offset-y blur-radius color) */
+    --drop_shadow_touchbar : box-shadow(-4px 0px 10px rgba(0, 0, 0, 0.1));
+    --glow : box-shadow(0px 0px 20px rgba(247, 184, 1, 0.5));
+
+}
+
+
+.all{
+    padding: 1rem;
+    background-color: var(--fond);
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-image:  url("img/fond.png");
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+  
+
+    
